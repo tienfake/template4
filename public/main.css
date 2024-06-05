@@ -1,3 +1,141 @@
 .container{
     margin:0 auto;
 }
+:root{
+    --background-color:linear-gradient(to top, #50C577, #2DBEFC);
+
+}
+.bg_new{
+    background: var(--background-color);
+}
+
+.menu_ ul{
+    display: flex;
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+.menu_ ul li {
+    margin-left: 1rem;
+}
+
+.menu_ ul li:first-child {
+    margin-left: 0; 
+}
+
+.menu_ ul li a {
+    position: relative;
+    text-decoration: none; 
+    padding-bottom: 2px; 
+    color: #252525; 
+    transition: color 0.3s;
+}
+
+.menu_ ul li a::before,
+.menu_ ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s ease-in-out; 
+}
+
+.menu_ ul li a::before {
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(to top, #50C577, #2DBEFC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+    z-index: -1; 
+}
+
+.menu_ ul li a::after {
+    bottom: -2px;
+    height: 2px;
+    background: linear-gradient(to top, #50C577, #2DBEFC);
+    width: 0; 
+}
+
+.menu_ ul li a:hover::before {
+    opacity: 1; 
+}
+
+.menu_ ul li a:hover::after {
+    width: 100%; 
+}
+
+.butGreen{
+    background: linear-gradient(135deg, #3EED8B 0%, #0A9949 100%);
+}
+.borderInput{
+border: 1px solid;
+border-image-source: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
+
+
+}
+.tableSlide li a {
+    position: relative;
+    text-decoration: none; 
+    padding-bottom: 2px; 
+    color: #252525; 
+    transition: color 0.3s;
+}
+
+.tableSlide li a::before,
+.tableSlide li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s ease-in-out; 
+}
+
+.tableSlide li a::before {
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(to top, #50C577, #2DBEFC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+    z-index: -1; 
+}
+
+.tableSlide li a::after {
+    bottom: -2px;
+    height: 2px;
+    background: linear-gradient(to top, #50C577, #2DBEFC);
+    width: 0; 
+}
+
+.tableSlide li a:hover::before {
+    opacity: 1; 
+}
+
+.tableSlide li a:hover::after {
+    width: 100%; 
+}
+
+.banner img{
+    object-fit: cover;
+    width:full;
+    height:full;
+}
+.whyDocter img{
+    object-fit: cover;
+    width:full;
+    height:full;   
+}
+.iconPlus img{
+    width:1.25rem;
+    height:1.25rem;
+}
+/* .capchaImg img{
+    
+    width:1.5rem;
+    height:1.5rem;
+} */
+.Capcha input{
+    width:1.25rem;
+    height:1.25rem;
+}

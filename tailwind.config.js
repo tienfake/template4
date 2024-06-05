@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         'arima': ['Arima Madurai', 'cursive'],
         'roboto': ['Roboto', 'sans-serif'],
+        'Lato':['Lato','sans-serif'],
       },
     },
   },
