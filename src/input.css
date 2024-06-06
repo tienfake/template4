@@ -1,6 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.dropMenu ul{
+.dropMenu {
     @apply absolute top-10 z-50 w-full bg-white text-center; 
 }

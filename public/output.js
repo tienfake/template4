@@ -108,11 +108,21 @@ function initializeToggle(titleSelector, imgSrcPlus, imgSrcMinus) {
 initializeToggle('.title', '../public/img/plus.png', '../public/img/tru.png');
 
 ///////////////////////////////////////////////
-var swiper = new Swiper(".tableSwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+
+const buttons = document.querySelectorAll('button');
+const slides = document.getElementById('slides').children;
+
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        const slideIndex = button.dataset.slide;
+
+        // Hide all slides
+        Array.from(slides).forEach(slide => {
+            slide.classList.add('hidden');
+        });
+
+        // Show the selected slide
+        const selectedSlide = document.querySelector(`.slide[data-slide="${slideIndex}"]`);
+        selectedSlide.classList.remove('hidden');
+    });
+});
