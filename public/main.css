@@ -136,5 +136,44 @@ border-image-source: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
     width:1.25rem;
     height:1.25rem;
 }
+.input-container {
+    position: relative;
+    
+}
 
+.input-container input {
+ 
+    /* padding: 0.813rem;
+    padding: */
+    box-sizing: border-box;
+    border:1px solid #EBEBEB;
+}
+.input-container label {
+    position: absolute;
+    top: 40%;
+    left: 12px;
+    transform: translateY(-25%);
+    background-color: #fff;
+    padding: 0 5px;
+    transition: 0.3s;
+    color: #aaa;
+    pointer-events: none;
+}
 
+.input-container.focused label,
+.input-container input:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 10px;
+    color: #2891CC;
+    font-size: 0.75rem;
+    font-weight: bold;
+    
+}
+.input-container input:focus {
+    border-color: #2891CC;
+    outline: none; 
+}
+
+.content p{
+    transition: opacity 0.5s ease-in-out;
+}

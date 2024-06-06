@@ -15,6 +15,26 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 });
 
+document.querySelectorAll('.input-container').forEach(container => {
+    const input = container.querySelector('input');
+    const label = container.querySelector('label');
+
+    input.addEventListener('focus', () => {
+        container.classList.add('focused');
+    });
+
+    input.addEventListener('blur', () => {
+        if (input.value === '') {
+            container.classList.remove('focused');
+        }
+    });
+
+    if (input.value !== '') {
+        container.classList.add('focused');
+    }
+});
+
+
 var swiper = new Swiper(".slSwiper", {
     slidesPerView: 4.75,
     spaceBetween: 30,
@@ -115,14 +135,11 @@ const slides = document.getElementById('slides').children;
 buttons.forEach(button => {
     button.addEventListener('click', () => {
         const slideIndex = button.dataset.slide;
-
-        // Hide all slides
         Array.from(slides).forEach(slide => {
             slide.classList.add('hidden');
         });
-
-        // Show the selected slide
         const selectedSlide = document.querySelector(`.slide[data-slide="${slideIndex}"]`);
         selectedSlide.classList.remove('hidden');
     });
 });
+
