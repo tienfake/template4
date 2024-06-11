@@ -5,6 +5,7 @@
 section {
     width: 1920px;
     margin: 0 auto;
+    
 }
 
 @media (max-width: 1920px) {
@@ -94,7 +95,6 @@ border-image-source: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
     padding-bottom: 2px; 
     color: #252525; 
     transition: color 0.3s;
-    font-size:1.125rem;
 }
 
 .tableSlide button::before,

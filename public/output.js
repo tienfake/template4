@@ -49,10 +49,14 @@ var swiper = new Swiper(".slSwiper", {
             spaceBetween: 10,
         },
         640: {
-            slidesPerView: 2,
+            slidesPerView: 2.25,
             spaceBetween: 20,
         },
         1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+        1280: {
             slidesPerView: 4.5,
             spaceBetween: 30,
         }
@@ -79,6 +83,7 @@ var swiper = new Swiper(".docterSwiper", {
             slidesPerView: 4,
             spaceBetween: 30,
         }
+       
     }
 
 });
