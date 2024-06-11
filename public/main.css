@@ -1,8 +1,20 @@
-.container{
+.container {
     margin:0 auto;
+    max-width: 1408px;
 }
+section {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1920px) {
+    section {
+        width: 100%;
+    }
+}
+
 :root{
-    --background-color:linear-gradient(to top, #50C577, #2DBEFC);
+    --background-color:linear-gradient(to left, #2DBEFC,#50C577 );
 
 }
 .bg_new{
@@ -82,6 +94,7 @@ border-image-source: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
     padding-bottom: 2px; 
     color: #252525; 
     transition: color 0.3s;
+    font-size:1.125rem;
 }
 
 .tableSlide button::before,
@@ -123,7 +136,7 @@ border-image-source: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
     width:full;
     height:full;
 }
-.whyDocter img{
+.whydocter img{
     object-fit: cover;
     width:full;
     height:full;   
@@ -146,6 +159,9 @@ border-image-source: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
     /* padding: 0.813rem;
     padding: */
     box-sizing: border-box;
+    border:1px solid #EBEBEB;
+}
+.borderinput{
     border:1px solid #EBEBEB;
 }
 .input-container label {
@@ -176,4 +192,48 @@ border-image-source: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
 
 .content p{
     transition: opacity 0.5s ease-in-out;
+}
+.whoImage img{
+    width:100%;
+    height:100%;
+}
+.tuvan img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.butOrange{
+    background: linear-gradient(180deg, #FFB469 0%, #E57709 100%);
+
+}
+.bg_docter{
+    background: linear-gradient(90deg, #9DDCB0 0%, #84D0FD 100%);
+
+}
+.bg_docter img{
+    width:100%;
+    height:100%;
+    object-fit: cover;  
+}
+.bg_vector img{
+    width:100%;
+    height:100%;
+    object-fit: cover;   
+}
+
+.butNextPre{
+border: 2px solid;
+border-image-source: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
+
+
+}
+
+.feeback img{
+    width:100%;
+    height:100%;
+    object-fit: cover;  
+}
+.plusFB img{
+    width:100%;
+    height:100%; 
 }

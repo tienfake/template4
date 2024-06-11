@@ -36,7 +36,7 @@ document.querySelectorAll('.input-container').forEach(container => {
 
 
 var swiper = new Swiper(".slSwiper", {
-    slidesPerView: 4.75,
+    slidesPerView: 4.5,
     spaceBetween: 30,
 
     navigation: {
@@ -53,7 +53,7 @@ var swiper = new Swiper(".slSwiper", {
             spaceBetween: 20,
         },
         1024: {
-            slidesPerView: 3.5,
+            slidesPerView: 4.5,
             spaceBetween: 30,
         }
     }
@@ -83,7 +83,7 @@ var swiper = new Swiper(".docterSwiper", {
 
 });
 var swiper = new Swiper(".feebackSwiper", {
-    slidesPerView: 3.5,
+    slidesPerView: 3,
     spaceBetween: 30,
 
     navigation: {
@@ -100,7 +100,7 @@ var swiper = new Swiper(".feebackSwiper", {
             spaceBetween: 20,
         },
         1024: {
-            slidesPerView: 3.5,
+            slidesPerView: 3,
             spaceBetween: 30,
         }
     }
