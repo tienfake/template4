@@ -2521,6 +2521,10 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:absolute {
+    position: absolute;
+  }
+
   .xl\:left-0 {
     left: 0px;
   }
@@ -2559,6 +2563,30 @@ video {
 
   .xl\:right-0 {
     right: 0px;
+  }
+
+  .xl\:top-\[\] {
+    top: ;
+  }
+
+  .xl\:top-\[5\%\] {
+    top: 5%;
+  }
+
+  .xl\:top-0 {
+    top: 0px;
+  }
+
+  .xl\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .xl\:bottom-\[10\] {
+    bottom: 10;
+  }
+
+  .xl\:bottom-\[10\%\] {
+    bottom: 10%;
   }
 
   .xl\:mx-0 {
@@ -2634,6 +2662,10 @@ video {
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .xl\:p-2 {
+    padding: 0.5rem;
+  }
+
   .xl\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -2647,6 +2679,14 @@ video {
   .xl\:py-\[11px\] {
     padding-top: 11px;
     padding-bottom: 11px;
+  }
+
+  .xl\:pt-6 {
+    padding-top: 1.5rem;
+  }
+
+  .xl\:pl-6 {
+    padding-left: 1.5rem;
   }
 
   .xl\:text-\[3rem\] {
@@ -2690,6 +2730,14 @@ video {
 
   .\32xl\:right-\[12\%\] {
     right: 12%;
+  }
+
+  .\32xl\:bottom-\[10\%\] {
+    bottom: 10%;
+  }
+
+  .\32xl\:top-\[10\%\] {
+    top: 10%;
   }
 
   .\32xl\:mr-8 {
@@ -2738,6 +2786,10 @@ video {
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .\32xl\:p-3 {
+    padding: 0.75rem;
+  }
+
   .\32xl\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -2746,6 +2798,14 @@ video {
   .\32xl\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .\32xl\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .\32xl\:pl-8 {
+    padding-left: 2rem;
   }
 
   .\32xl\:text-center {
