@@ -8,6 +8,7 @@ module.exports = {
         'roboto': ['Roboto', 'sans-serif'],
         'Lato':['Lato','sans-serif'],
       },
+    
     },
   },
   plugins: [],

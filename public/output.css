@@ -696,30 +696,6 @@ video {
   top: 811px;
 }
 
-.bottom-\[\] {
-  bottom: ;
-}
-
-.bottom-\[24\.95\%\] {
-  bottom: 24.95%;
-}
-
-.top-\[\] {
-  top: ;
-}
-
-.top-\[37\] {
-  top: 37;
-}
-
-.top-\[37\2c 7\%\] {
-  top: 37,7%;
-}
-
-.top-\[37\.7\%\] {
-  top: 37.7%;
-}
-
 .z-0 {
   z-index: 0;
 }
@@ -934,12 +910,16 @@ video {
   height: 1.8%;
 }
 
-.h-\[2\.9\%\] {
-  height: 2.9%;
+.h-\[100px\] {
+  height: 100px;
 }
 
-.h-\[20\%\] {
-  height: 20%;
+.h-\[19\%\] {
+  height: 19%;
+}
+
+.h-\[2\.9\%\] {
+  height: 2.9%;
 }
 
 .h-\[2rem\] {
@@ -964,10 +944,6 @@ video {
 
 .h-\[45\%\] {
   height: 45%;
-}
-
-.h-\[50\%\] {
-  height: 50%;
 }
 
 .h-\[50px\] {
@@ -1000,30 +976,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[19\%\] {
-  height: 19%;
-}
-
-.h-\[\%\] {
-  height: %;
-}
-
-.h-\[47\%\] {
-  height: 47%;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[10\%\] {
-  height: 10%;
-}
-
-.h-\[100px\] {
-  height: 100px;
 }
 
 .max-h-full {
@@ -1781,6 +1733,10 @@ video {
     margin-top: 1.5rem;
   }
 
+  .md\:mt-\[1rem\] {
+    margin-top: 1rem;
+  }
+
   .md\:mt-\[3\.813rem\] {
     margin-top: 3.813rem;
   }
@@ -1791,10 +1747,6 @@ video {
 
   .md\:mt-\[8\.563\] {
     margin-top: 8.563;
-  }
-
-  .md\:mt-\[1rem\] {
-    margin-top: 1rem;
   }
 
   .md\:block {
@@ -1858,10 +1810,6 @@ video {
 
   .md\:pt-8 {
     padding-top: 2rem;
-  }
-
-  .md\:pr-8 {
-    padding-right: 2rem;
   }
 
   .md\:text-left {
@@ -2091,6 +2039,10 @@ video {
     width: 90%;
   }
 
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
   .lg\:basis-1\/4 {
     flex-basis: 25%;
   }
@@ -2200,10 +2152,6 @@ video {
 }
 
 @media (min-width: 1280px) {
-  .xl\:absolute {
-    position: absolute;
-  }
-
   .xl\:left-0 {
     left: 0px;
   }
@@ -2214,22 +2162,6 @@ video {
 
   .xl\:right-0 {
     right: 0px;
-  }
-
-  .xl\:top-\[13\.46\%\] {
-    top: 13.46%;
-  }
-
-  .xl\:right-\[50\.8\%\] {
-    right: 50.8%;
-  }
-
-  .xl\:top-\[\%\] {
-    top: %;
-  }
-
-  .xl\:top-\[8\%\] {
-    top: 8%;
   }
 
   .xl\:mx-0 {
@@ -2329,10 +2261,6 @@ video {
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:absolute {
-    position: absolute;
-  }
-
   .\32xl\:left-\[12\%\] {
     left: 12%;
   }
@@ -2343,14 +2271,6 @@ video {
 
   .\32xl\:right-\[12\%\] {
     right: 12%;
-  }
-
-  .\32xl\:top-\[13\.46\%\] {
-    top: 13.46%;
-  }
-
-  .\32xl\:right-\[50\.8\%\] {
-    right: 50.8%;
   }
 
   .\32xl\:mx-2 {

@@ -1486,7 +1486,7 @@
 
         </section>
 
-        <section class="mb-5 md:mb-5 lg:mb-0 lg:relative">
+        <!-- <section class="mb-5 md:mb-5 lg:mb-0 lg:relative">
             <div class="hidden lg:block bannerFooter h-full w-full">
                 <img src="../public/img/bannerFooter.png" alt="bannerFooter">
             </div>
@@ -1501,23 +1501,23 @@
                             và chúng tôi sẽ xếp lịch khám kịp
                             thời!</p>
                     </div>
-                    <div class="flex flex-col md:flex-row h-[90%] mx-[1rem]">
+                    <div class="flex flex-col md:flex-row w-full h-[90%] ">
                         <div class="flex flex-col w-full md:w-[55%]  mb-5 pt-8 pl-8 xl:pt-6 xl:pl-6 2xl:pt-8 2xl:pl-8 pb-4 md:pb-8 pr-4">
-                            <div class="  w-full h-[19%] input-container rounded-lg">
+                            <div class=" w-full h-[19%] input-container rounded-lg ">
                                 <input type="text" placeholder="" id="hoTen"
                                     class="w-full border-0 rounded-lg  p-3  xl:p-2 2xl:p-3" required>
                                 <label for="hoTen">Họ và tên*</label>
                             </div>
                             <div class=" w-full mt-[1rem] input-container h-[19%]  rounded-lg" required>
-                                <input type="text" placeholder="" id="email" class="w-full rounded-lg p-3">
+                                <input type="text" placeholder="" id="email" class="w-full rounded-lg  p-3  xl:p-2 2xl:p-3">
                                 <label for="email">E-mail</label>
                             </div>
                             <div class=" w-full mt-[1rem] h-[19%] input-container rounded-lg" required>
-                                <input type="text" placeholder="" id="phone" class="w-full rounded-lg p-3">
+                                <input type="text" placeholder="" id="phone" class="w-full rounded-lg  p-3  xl:p-2 2xl:p-3">
                                 <label for="phone">Số điện thoại*</label>
                             </div>
                             <div class=" w-full h-[19%] mt-[1rem] rounded-lg">
-                                <input type="date" class="w-full p-3 rounded-lg borderinput text-[#888888]">
+                                <input type="date" class="w-full  p-3  xl:p-2 2xl:p-3 rounded-lg borderinput text-[#888888]">
                             </div>
                         </div>
                         <div class="flex flex-col w-full  md:w-[50%] pl-8 md:pl-0 pt-0 md:pt-8 pr-8 pb-8">
@@ -1548,6 +1548,66 @@
                 </div>
 
 
+            </div>
+        </section> -->
+        <section class="testBG">
+            <div class="container flex justify-center lg:block">
+                <div
+                    class="formDangki flex flex-col w-[90%] lg:w-[50%] mx-4 lg:mx-0 font-Lato border rounded-2xl  bg-white ">
+                    <div class="flex flex-col text-center bg_new rounded-t-2xl  text-white">
+                        <p class="text-[1.2rem]  md:text-[1.875rem] font-bold mt-3 md:mt-6">Đăng ký tư vấn miễn phí</p>
+                        <p class=" mx-2 md:mx-0 text-[0.675rem] md:text-[1rem] mb-2 md:mb-4 ">Đặt hẹn ngay để nhận tư
+                            vấn
+                            và chúng tôi sẽ xếp lịch khám kịp
+                            thời!</p>
+                    </div>
+                    <div class="flex flex-col md:flex-row w-full h-[90%] ">
+                        <div class="flex flex-col w-full md:w-[55%]  mb-5 pt-8 pl-8 xl:pt-6 xl:pl-6 2xl:pt-8 2xl:pl-8 pb-4 md:pb-8 pr-4">
+                            <div class=" w-full h-[19%] input-container rounded-lg ">
+                                <input type="text" placeholder="" id="hoTen"
+                                    class="w-full border-0 rounded-lg  p-3  xl:p-2 2xl:p-3" required>
+                                <label for="hoTen">Họ và tên*</label>
+                            </div>
+                            <div class=" w-full mt-[1rem] input-container h-[19%]  rounded-lg" required>
+                                <input type="text" placeholder="" id="email" class="w-full rounded-lg  p-3  xl:p-2 2xl:p-3">
+                                <label for="email">E-mail</label>
+                            </div>
+                            <div class=" w-full mt-[1rem] h-[19%] input-container rounded-lg" required>
+                                <input type="text" placeholder="" id="phone" class="w-full rounded-lg  p-3  xl:p-2 2xl:p-3">
+                                <label for="phone">Số điện thoại*</label>
+                            </div>
+                            <div class=" w-full h-[19%] mt-[1rem] rounded-lg">
+                                <input type="date" class="w-full  p-3  xl:p-2 2xl:p-3 rounded-lg borderinput text-[#888888]">
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-full  md:w-[50%] pl-8 md:pl-0 pt-0 md:pt-8 pr-8 pb-8">
+                            <div class=" w-full h-[100px] md:h-[47%] rounded-lg">
+                                <input type="text" placeholder=""
+                                    class="w-full h-full text-left rounded-lg borderinput">
+                            </div>
+                            <div class="Capcha  flex flex-row mt-[14px]">
+                                <input type="checkbox">
+                                <div class=" mx-2 2xl:mx-2 text-[1rem]">
+                                    <p>Tôi không phải người máy</p>
+                                </div>
+        
+                                <div class=" capchaImg w-[13%] h-auto ">
+                                    <img src="../public/img/capcha.png" alt="capcha">
+                                </div>
+        
+                            </div>
+        
+                            <div class="mt-[0.75rem] md:mt-[1rem] mb-4 md:mb-0">
+                                <button
+                                    class="py-[0.5rem] md:py-[0.656rem] text-[0.75rem] md:text-[1rem] uppercase font-bold bg_new butShadowGreen w-full text-white rounded-[2.5rem]">GỬI
+                                    YÊU CẦU</button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+        
+        
             </div>
         </section>
         <section class="bg_new">
@@ -1616,6 +1676,8 @@
         <div class="hidden 2xl:block bg_main2 absolute left-[39.06%] top-[2884px] z-10">
             <img src="../public/img/bg_main2.png" alt="bg_main2">
         </div>
+
+
     </section>
 
     <!-- <section class="mb-10 border border-white relative z-50 h-full ">

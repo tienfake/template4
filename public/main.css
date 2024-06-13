@@ -60,7 +60,7 @@ section {
     position: absolute;
     left: 0;
     width: 100%;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 /* .menu_ ul li a::before {
@@ -102,6 +102,7 @@ border-image-source: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
     padding-bottom: 2px; 
     color: #252525; 
     transition: color 0.3s;
+
 }
 
 .tableSlide button::before,
@@ -214,6 +215,7 @@ border-image-source: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
 }
 .butHeader:hover{
     background: linear-gradient(180deg, #FFB469 0%, #E57709 100%);
+    transition: all 0.3s ease-in-out; 
  
 }
 .bg_docter{
@@ -261,3 +263,14 @@ border-image-source: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
     box-shadow: 0px 12px 24px 0px #3EC1B873;
 }
 
+.testBG{
+    background-image: url('img/bannerFooter.png'); 
+    background-size: cover;
+    padding-top:3.4%;
+    padding-bottom:3.4%;
+}
+@media (max-width: 1024px) {
+    .testBG {
+        background-image: none;
+    }
+}
